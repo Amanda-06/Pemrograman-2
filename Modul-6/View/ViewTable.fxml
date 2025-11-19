@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="344.0" prefWidth="371.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Controller">
+   <children>
+      <TableView fx:id="table" prefHeight="344.0" prefWidth="381.0" VBox.vgrow="ALWAYS">
+        <columns>
+          <TableColumn fx:id="nimColumn" prefWidth="188.66668701171875" text="NIM" />
+          <TableColumn fx:id="namaColumn" prefWidth="182.0" text="Nama" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>
